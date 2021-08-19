@@ -1,0 +1,78 @@
+div{
+    background-color: rgb(50, 50, 50);
+    font-weight: bold;
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid rgb(78, 77, 77);
+    border-radius: 15px;
+    height: 280px;
+    margin-top: 60px;
+    font-family: monospace;
+}
+.sl{
+    border-radius: 15px;
+    width: 280px;
+    margin-left: 10px;
+    height: 130px;
+}
+
+.msl{
+    margin-left: 17px;
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+}
+
+p{
+    margin-left: 17px;
+}
+
+.size{
+    font-size: 10px;
+}
+
+h4{
+    margin-left: 17px;
+    margin-bottom: 37px;
+    margin-top: 12px;
+}
+
+
+
+.ikone{
+    margin-left: 100px;
+}
+
+.ikone:hover{
+    color: green;
+    border: 5px solid lightgreen;
+    background-color: lightgreen;
+    border-radius: 7px;
+    }
+
+.pikona{
+    margin-top: 10px;
+    margin-left: 17px;
+}
+
+.pikona:hover{
+    color: green;
+    border: 5px solid lightgreen;
+    background-color: lightgreen;
+    border-radius: 7px;
+}
+
+.floatL{
+    float: left;
+}
+.floatR{
+    float: right;
+}
+
+
+.fontw{
+    font-weight: 100;
+    font-size: 12px;
+    opacity: 0.5;
+}
