@@ -1,0 +1,24 @@
+button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: blueviolet;
+  height: 100px;
+  width: 150px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  transition: all 1s ease;
+  font-size: 10px;
+}
+
+button:hover {
+  transform: rotate(113080deg);
+  font-size: 50px;
+  height: 200;
+  width: 300;
+  margin: 100px;
+  border-radius: 70px;
+  background-color: red;
+  color: black;
+}

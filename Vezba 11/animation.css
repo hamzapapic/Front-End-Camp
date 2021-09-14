@@ -1,0 +1,38 @@
+body {
+  font-family: monospace;
+}
+.div1 {
+  margin-left: 30%;
+  background-color: black;
+  color: white;
+  width: 40vw;
+  height: 30vw;
+  text-align: center;
+  font-size: 70px;
+  margin-top: 10%;
+  border-radius: 30px;
+}
+
+.div1:hover {
+  transition: all 1s ease;
+  transform: scale(0.5);
+  background-color: white;
+  font-size: 140px;
+  color: black;
+}
+.div2 {
+  font: 32px Arial;
+  display: inline-block;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  background: black;
+  background: linear-gradient(to left, black 50%, white 50%) right;
+  background-size: 200%;
+  transition: 1s ease-in-out;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+}
+.div2:hover {
+  background-position: left;
+  color: black;
+}

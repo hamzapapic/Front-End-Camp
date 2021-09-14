@@ -1,0 +1,130 @@
+body {
+  font-family: monospace;
+  margin: 0%;
+  padding: 0;
+  margin-top: 5%;
+}
+
+.textflex {
+  display: flex;
+  justify-content: center;
+}
+
+.firstpar {
+  font-size: 12px;
+  color: gray;
+  margin-top: 0;
+}
+
+.monthlyanuflex {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.monthlybackr {
+  background-color: rgb(99, 102, 241);
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  height: 35px;
+}
+.annually {
+  border: 2px solid rgb(99, 102, 241);
+  border-radius: 5px;
+  width: 6vw;
+  text-align: center;
+  height: 31.5px;
+}
+.monthlyp {
+  margin-top: 5px;
+}
+
+.monthanup {
+  margin-top: 10px;
+}
+.annuallyp {
+  margin-top: 8px;
+}
+
+.optionsdiv {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px;
+}
+
+.option {
+  border: 2px solid rgb(218, 216, 216);
+  border-radius: 10px;
+  height: 23vw;
+  width: 20vw;
+  margin-top: 20px;
+}
+
+.popularoption {
+  border: 2px solid rgb(99, 102, 241);
+}
+
+.startlinediv {
+  margin-left: 15px;
+}
+
+.h4option {
+  color: gray;
+}
+.h1option {
+  font-size: 30px;
+}
+
+hr {
+  color: gray;
+  width: 18vw;
+  margin-left: 1px;
+  margin-top: -5px;
+  opacity: 0.4;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  width: 18vw;
+  height: 2vw;
+  text-align: left;
+  background-color: rgb(174, 174, 174);
+  color: white;
+}
+button:hover {
+  background-color: rgb(130, 129, 129);
+}
+.smallp {
+  font-size: 9px;
+  color: gray;
+}
+
+.popbutton {
+  border: none;
+  border-radius: 3px;
+  width: 18vw;
+  height: 2vw;
+  text-align: left;
+  background-color: rgb(99, 102, 241);
+  color: white;
+}
+.popbutton:hover {
+  background-color: rgb(67, 70, 243);
+}
+
+.popular{
+  position: absolute;
+  margin: 0%;
+  margin-top: -19px;
+  margin-left: 14.4%;
+  background-color: rgb(99, 102, 241);
+  color: white;
+  font-weight: 800;
+  border-radius: 10px;
+  width: 4vw;
+  text-align: center;
+  border: 6px solid rgb(99, 102, 241);
+}

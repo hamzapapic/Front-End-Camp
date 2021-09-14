@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: royalblue;
+  font-family: monospace;
+}
+
+.navbar {
+  width: 100vw;
+  height: 6vw;
+  background-color: black;
+}
+
+div ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul {
+  color: white;
+  list-style-type: none;
+  margin-right: 60px;
+}
+
+.size {
+  font-size: 30px;
+}
+
+li {
+  font-size: 20px;
+  margin-top: 28px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  margin-top: 93px;
+  margin-left: 51vw;
+  display: none;
+  background-color: white;
+}
+
+li:hover {
+  background-color: royalblue;
+  height: 80px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

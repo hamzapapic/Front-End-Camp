@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  background-color: red;
+}
+.jedan {
+  font: 100px Arial;
+  width: 1000px;
+  height: 800px;
+  background-color: yellow;
+  border: 3px solid black;
+  margin: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: green;
+  }
+  .jedan {
+    font-size: 30px;
+    width: 300px;
+    height: 250;
+    border: 3px solid lightblue;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: blue;
+  }
+}

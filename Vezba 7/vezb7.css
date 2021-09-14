@@ -1,0 +1,30 @@
+.maindiv{
+    border: 1px solid black;
+    width: 1300px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.prvi,.drugi,.treci,.cetvrti{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.prvi{
+    background-color: yellow;
+}
+
+.drugi{
+    background-color: green;
+}
+.treci{
+    background-color: red;
+}
+.cetvrti{
+    background-color: blue;
+}
