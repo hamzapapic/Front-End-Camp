@@ -1,0 +1,55 @@
+button{
+    width: 9vw;
+    height: 3vw;
+    border: none;
+    border-radius: 25px;
+    font-weight: 700;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.button1{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 50%, rgb(6, 243, 81) 100%);
+}
+.button2{
+    background: linear-gradient(90deg, rgb(255, 247, 0) 50%, rgb(243, 121, 6) 100%);
+}
+.button3{
+    background: linear-gradient(90deg, rgb(0, 115, 255) 50%, rgb(128, 6, 243) 100%);
+}
+.button4{
+    background: linear-gradient(90deg, rgb(255, 0, 106) 50%, rgb(219, 243, 6) 100%);
+}
+.button5{
+    background: linear-gradient(90deg, rgb(0, 255, 8) 50%, rgb(125, 243, 6) 100%);
+}
+.button6{
+    background: linear-gradient(90deg, rgb(4, 132, 30) 50%, rgb(200, 243, 6) 100%);
+}
+.button7{
+    background: linear-gradient(90deg, rgb(126, 67, 252) 50%, rgb(148, 6, 243) 100%);
+}
+.button8{
+    background: linear-gradient(90deg, rgb(30, 30, 30) 50%, rgb(83, 83, 83) 100%);
+}
+.button9{
+    background-color: aqua;
+}
+.button10{
+    background: linear-gradient(90deg, rgb(247, 18, 205) 50%, rgb(255, 0, 0) 100%);
+}
+.button11{
+    background: linear-gradient(90deg, rgb(194, 0, 0) 50%, rgb(255, 0, 0) 100%);
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.gap{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}

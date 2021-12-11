@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 5;
+}
+
+.navflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 70px;
+    align-items: center;
+}
+
+.navsubflex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    font-size: 20px;
+}
+
+.imgdiv{
+    background:linear-gradient( rgb(0, 0, 0, 0.5), transparent),url("downs/pexels-lumn-167699.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.textflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.textheading{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 3px 5px #00000092;
+}
+
+.textpar{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+button{
+    margin-top: 20px;
+    background-color: #4c6e97;
+    color: white;
+    border: none;
+    width: 15%;
+    height: 60px;
+    font-size: 20px;
+}
+
+/* Locations */
+
+
+.cityimg{
+    background:linear-gradient( rgb(0, 0, 0, 0.5), transparent),url("downs/pexels-burst-374870.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cityflex{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+button:hover{
+    background-color: #314762;
+}
+
+.cityheading{
+    margin-left: 100px;
+    padding: 1rem 0rem;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5;
+    font-size: 2.4rem;
+}
+
+.citypar{
+    margin-left: 100px;
+    font-size: 1.7rem;
+    font-weight: 400;    
+    padding: 1rem 0rem;
+}
+
+
+.clouds{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cloud {
+    margin-top: 100vh;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 40%;
+    height: 50%;
+    pointer-events: none;
+}
+
+.moving-cloud-1 {
+    z-index: 1;
+    animation: cloudAnimation 4s infinite alternate ease-in-out;
+}
+
+.moving-cloud-2 {
+	top: 10%;
+	z-index: 0;
+	opacity: 0.4;
+	animation: cloudAnimation 3.5s
+		infinite alternate ease-in-out;
+}
+
+@keyframes cloudAnimation {
+	from {
+		transform: translate(10%, -10%);
+	}
+	to {
+		transform: translate(0%, 0%);
+	}
+}
+
+/* Benefits */
+
+.benefitsimg{
+    background:linear-gradient( rgb(0, 0, 0, 0.0), transparent),url("downs/pexels-daniel-jurin-1835712.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.benefitstext{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+}
+
+.benefitsheading{
+    font-size: 50px;
+    color: #4c6e97;
+}
+
+.benefitspar{
+    padding: 1rem 0rem;
+    font-size: 30px;
+    text-align: center;
+    color: #4c6e97;
+}
+
+.cardsflex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cyancard{
+    background-color: #4c6e97;
+    width: 22vw;
+    height: 12vh;
+    text-align: center;
+}
+
+.cyancard:hover{
+    background-color: #324762;
+    transition: all 1s ease;
+}
+.whitecard{
+    background-color: white;
+    width: 22vw;
+    height: 28vh;
+    text-align: center;
+    color: black;
+}
+
+.shadow{
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+i{
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+.cardpar{
+    padding: 1rem 0rem;
+    font-size: 23px;
+}
+
+
+/* Contact */
+
+.contactimg{
+    background:linear-gradient( rgb(0, 0, 0, 0.0), transparent),url("downs/pexels-james-wheeler-5895916.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.contactflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 50%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.formh1{
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+input{
+    width: 40%;
+    height: 10%;
+    margin-top: 40px;
+}
+
+label{
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.submit{
+    margin-top: 90px;
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 15%;
+    font-size: 20px;
+    background-color: #4c6e97;
+    color: white;
+    border: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer */
+
+footer{
+    background-color: black;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow:hidden;
+}
+
+.footersubflex{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.copyright{
+    font-size: 30px;
+}
+
+.copyright1{
+    font-size: 30px;
+}
+
+.footerh1{
+    padding-left: 4rem;
+}
+
+
+

@@ -1,0 +1,67 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.fixeddiv{
+    width: 100%;
+    height: 4.5vw;
+    background-color: black;
+    color: white;
+    opacity: 0.84;
+    border-bottom: 2px solid rgb(56, 55, 55)
+}
+.fixeddivflex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subflex{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin-top: -2px;
+}
+
+.hidayah{
+    font-size: 30px;
+    margin-top: 17px;
+    margin-left: 100px;
+}
+
+.optionsnav{
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+.faceimg{
+    width: 100%;
+    background-color: black;
+    opacity: 1;
+    height: 91%;
+}
+
+/* .grayscale { filter: grayscale(100%); } */
+.brightness { filter: brightness(0.35); }
+
+.imgtext{
+    color: white;
+    position: absolute;
+}
+
+.headimg{
+    margin-left: 34%;
+    margin-top: -28%;
+    font-size: 50px;
+}
+
+.pimg{
+    font-size: 15px;
+    margin-left: 100px;
+    text-align: center;
+}
