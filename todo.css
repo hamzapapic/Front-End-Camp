@@ -1,0 +1,95 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(120deg, navy, darkred);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+header {
+  font-size: 1.5rem;
+}
+
+form,
+header {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background-color: white;
+}
+form input {
+  padding: 0.38rem;
+}
+
+form button {
+  color: darkred;
+  background-color: white;
+  cursor: pointer;
+  transition: ease 0.3s all;
+}
+form button:hover {
+  color: white;
+  background-color: darkred;
+}
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+.todo {
+  margin: 0.5rem;
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: ease 0.5s all;
+}
+.todo li {
+  flex: 1;
+}
+.done-btn,
+.delete-btn {
+  background-color: darkred;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: ease 0.3s all;
+}
+.done-btn {
+  background-color: lime;
+}
+
+.done-btn:hover {
+  color: lime;
+  background-color: white;
+}
+.delete-btn:hover {
+  color: darkred;
+  background-color: white;
+}
+.todo-item {
+  padding: 0 0.5rem;
+}
+.completed {
+  text-decoration: overline;
+  opacity: 0.5;
+}

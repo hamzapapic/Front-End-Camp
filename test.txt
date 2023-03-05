@@ -1,0 +1,1 @@
+1. Javascript je single-threaded, just-in-time,interpretirani programerski jezik koji se uglavnom koristi za web development ali se moze koristiti i za web development
